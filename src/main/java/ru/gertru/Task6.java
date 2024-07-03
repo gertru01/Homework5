@@ -13,7 +13,7 @@ public class Task6 {
         for (int i = 0; i < 10; i++) {
             points.put(new Player((i + 1), ("Player " + String.valueOf(i + 1)), true), 0);
         }
-
+        // За счет переопределенного метода equals прокатило)
         points.put(new Player(4, "Player 4", true), 10);
         points.put(new Player(7, "Player 7", true), 12);
         points.put(new Player(8, "Player 8", true), 11);
